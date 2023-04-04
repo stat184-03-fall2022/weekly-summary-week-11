@@ -1,6 +1,6 @@
 ---
-title: "Weekly Summary Template"
-author: "Author Name"
+title: "Week 11 Weekly Summary"
+author: "Jack Benadon"
 title-block-banner: true
 title-block-style: default
 toc: true
@@ -19,9 +19,9 @@ Include a _very brief_ summary of what you learnt in this class here.
 
 Today, I learnt the following concepts in class:
 
-1. Item 1
-1. Item 2
-1. Item 3
+1. summary of last class
+1. We went over neural networks
+1. We went over homework 4
 :::
 
 Provide more concrete details here. You can also use footenotes[^footnote] if you like
@@ -30,17 +30,18 @@ Provide more concrete details here. You can also use footenotes[^footnote] if yo
 #| output: false
 library(dplyr)
 library(purrr)
+library(glmnet)
+library(torch)
+library(ISLR2)
+library(tidyr)
+library(readr)
+library(caret)
+library(mlbench)
+library(nnet)
+library(class)
 ```
 
 
-For example: 
-in class we learnt we learnt about the `map` function from the `purrr` package. 
-
-
-```{R results='hide', fig.width=7, fig.height=7}
-par(mfrow=c(3, 3), mar=c(3.5, 3.5, 2, 1), mgp=c(2.4, 0.8, 0))
-map(1:9, function(i)rnorm(1000) %>% hist(., main=i, col=i))
-```
 
 
 
